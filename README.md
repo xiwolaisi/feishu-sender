@@ -62,8 +62,8 @@ User=root
 Group=root
 
 Type=simple
-ExecStart=/data/service/n9e/feishu-sender
-WorkingDirectory=/data/service/n9e
+ExecStart=/home/n9e/feishu-sender
+WorkingDirectory=/home/n9e
 
 Restart=always
 RestartSec=1
