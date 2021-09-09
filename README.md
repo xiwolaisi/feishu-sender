@@ -3,6 +3,8 @@
 Nightingale的理念，是将告警事件扔到redis里就不管了，接下来由各种sender来读取redis里的事件并发送，毕竟发送报警的方式太多了，适配起来比较费劲，希望社区同仁能够共建。
 
 这里提供一个飞书机器人的sender，参考了https://github.com/n9e/wechat-sender，https://github.com/n9e/feishu-sender
+
+
 飞书拉群，并添加群机器人，得到webhook，配置自定义关键词安全设置，需要在夜莺项目monapi.yaml设置里的notify添加im告警,
 例如：
 ```
